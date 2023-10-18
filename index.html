@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+ <title>FINARA GAMING STORE PASTI MINUS</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+
+    
+    body {
+      background-color: #676767;
+    }
+
+    .navbar {
+      background-color: #333;
+    }
+
+    .navbar .logo {
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .navbar .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar .menu .links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .navbar .menu .links a {
+      color: #fff;
+    }
+
+    .navbar .menu .links a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar .toggle-button {
+      color: #fff;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .navbar .toggle-button:hover {
+      color: #ddd;
+    }
+
+    .navbar .menu.open .links {
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu .links {
+        display: none;
+      }
+
+      .navbar .menu.open .links {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar py-4">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="logo">
+          わたしのBAY
+        </div>
+        <div class="menu">
+          <div class="links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="toggle-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    const toggleButton = document.querySelector('.toggle-button');
+    const menuLinks = document.querySelector('.links');
+
+    toggleButton.addEventListener('click', () => {
+      menuLinks.classList.toggle('open');
+    });
+  </script>
+</body>
+<style>
+  .footer {
+    background-color: #313030;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .footer a {
+    color: #fff;
+  }
+
+  .footer a:hover {
+    color: #ccc;
+  }
+
+  .genshin-download-button {
+    display: inline-block;
+    background-color: #3a393b;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .genshin-download-button:hover {
+    background-color: #393b3a;
+  }
+</style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genshin Impact Card</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+</head>
+<body>
+  <div class="p-3"></div>
+  <div class="text-center">
+    <a href="https://genshin.mihoyo.com/" class="genshin-download-button">Download Genshin Impact</a>
+  </div>
+  <style>
+    .md:flex-shrink-0 img {
+      margin-right: 10px; /* Menambahkan jarak sebesar 10 piksel di sebelah kanan gambar */
+      margin-bottom: 10px; /* Menambahkan jarak sebesar 10 piksel di bawah gambar */
+    }
+  </style>
+  <style>
+    /* CSS */
+    .download-button {
+      display: inline-block;
+      background-color: #7289da;
+      color: #fff;
+      border-radius: 1px;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+      background-color: #677bc4;
+    }
+  </style>
+
+  <div class="p-4"></div>
+  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <div class="md:flex">
+      <div class="md:flex-shrink-0">
+        <img class="h-48 w-full object-cover md:w-48" src="https://ditusi.co.id/assets/uploads/category/1680068094_f0e39c67da8e7199d10d.jpg" alt="Genshin Crystal">
+      </div>
+      <div class="p-8">
+        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Game</div>
+        <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Genshin Impact</a>
+        <p class="mt-2 text-gray-500">Genshin Impact is an open-world action role-playing game developed and published by miHoYo.</p>
+        <div class="mt-4">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#RPG</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#Adventure</span>
+        </div>
+      </div>
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Genesis Crystal</div>
+      <h2 class="text-2xl font-semibold">Daftar Harga</h2>
+      <ul class="mt-4">
+        <li class="flex items-center">
+          <span class="font-medium mr-2">60 Genesis Crystal</span>
+          <span class="text-gray-500">- $4.99</span>
+          <button onclick="showPopup('089654117099', 1, 'Pembayaran Genshin Impact')" class="ml-auto bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg px-4 py-2">Beli</button>
+        </li>
+        
+        <div id="popup" class="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center hidden">
+          <div class="bg-white rounded-lg p-6">
+            <h2 class="text-2xl font-bold mb-4">Konfirmasi Pembelian</h2>
+            <p>Anda yakin ingin membeli <span id="popupAmount"></span> Genesis Crystal dengan harga <span id="popupPrice"></span>?</p>
+            <div class="flex justify-end mt-6">
+              <button onclick="hidePopup()" class="bg-gray-500 hover:bg-gray-600 text-white rounded-lg px-4 py-2 mr-2">Batal</button>
+              <button onclick="redirectToWhatsApp('089654117099', 1, 'Pembayaran Genshin Impact')" class="bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg px-4 py-2">Beli</button>
+            </div>
+          </div>
+        </div>
+        <li class="flex items-center mt-2">
+          <span class="font-medium mr-2">300 Genesis Crystal</span>
+          <span class="text-gray-500">- $24.99</span>
+          <button onclick="openWhatsApp('300 Genesis Crystal')" class="ml-auto bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg px-4 py-2">Beli</button>
+        </li>
+        <li class="flex items-center mt-2">
+          <span class="font-medium mr-2">980 Genesis Crystal</span>
+          <span class="text-gray-500">- $99.99</span>
+          <button onclick="openWhatsApp('980 Genesis Crystal')" class="ml-auto bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg px-4 py-2">Beli</button>
+        </li>
+        <li class="flex items-center mt-2">
+          <span class="font-medium mr-2">1980 Genesis Crystal</span>
+          <span class="text-gray-500">- $199.99</span>
+          <button onclick="openWhatsApp('1980 Genesis Crystal')" class="ml-auto bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg px-4 py-2">Beli</button>
+        </li>
+        <li class="flex items-center mt-2">
+          <span class="font-medium mr-2">3280 Genesis Crystal</span>
+          <span class="text-gray-500">- $220.99</span>
+          <button onclick="openWhatsApp('1980 Genesis Crystal')" class="ml-auto bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg px-4 py-2">Beli</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+
+  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl my-8">
+    <div class="md:flex">
+      <div class="md:flex-shrink-0">
+        <img class="h-48 w-half object-cover md:w-100" src="https://ditusi.co.id/assets/uploads/category/1682505937_7dc6d552b7c4ab023601.png" alt="Honkai: Star Rail - Login">
+      </div>
+      <div class="p-8">
+        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Game</div>
+        <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Honkai Star Rail</a>
+        <p class="mt-2 text-gray-500">Honkai Star Rail is an action-packed mobile game developed and published by miHoYo.</p>
+        <div class="mt-4">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#Action</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#Adventure</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Star Gems</div>
+      <h2 class="text-2xl font-semibold">Daftar Harga</h2>
+      <ul class="mt-4">
+        <li class="flex items-center">
+          <span class="font-medium mr-2">100 Star Gems</span>
+          <span class="text-gray-500">- $4.99</span>
+          <button class="ml-auto bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg px-4 py-2">Buy</button>
+        </li>
+        <li class="flex items-center mt-2">
+          <span class="font-medium mr-2">500 Star Gems</span>
+          <span class="text-gray-500">- $24.99</span>
+          <button class="ml-auto bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg px-4 py-2">Buy</button>
+        </li>
+        <li class="flex items-center mt-2">
+          <span class="font-medium mr-2">1000 Star Gems</span>
+          <span class="text-gray-500">- $49.99</span>
+          <button class="ml-auto bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg px-4 py-2">Buy</button>
+        </li>
+        <li class="flex items-center mt-2">
+          <span class="font-medium mr-2">2000 Star Gems</span>
+          <span class="text-gray-500">- $99.99</span>
+          <button class="ml-auto bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg px-4 py-2">Buy</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</body>
+
+<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+<script>
+function generateQRCode(merchantId, amount, description) {
+  // Membangun payload untuk QRIS
+  var payload = {
+    type: 'qr',
+    content: {
+      merchantId: merchantId,
+      amount: amount,
+      currency: 'IDR',
+      description: description
+    }
+  };
+
+  // Mengubah payload menjadi JSON
+  var jsonPayload = JSON.stringify(payload);
+
+  // Membangun URL dengan data JSON
+  var url = 'https://api.qrserver.com/v1/create-qr-code/?data=' + encodeURIComponent(jsonPayload);
+
+  // Membuka tab baru dengan URL QR Code
+  window.open(url);
+}
+
+
+  function openSocialMedia(url) {
+    window.open(url, '_blank');
+  }
+
+
+    // JavaScript
+    function showPopup(phoneNumber, amount, message) {
+      var popup = document.getElementById('popup');
+      var popupAmount = document.getElementById('popupAmount');
+      var popupPrice = document.getElementById('popupPrice');
+
+      popupAmount.textContent = amount + ' Genesis Crystal';
+      popupPrice.textContent = '$' + amount.toFixed(2);
+
+      popup.style.display = 'flex';
+    }
+
+    function hidePopup() {
+      var popup = document.getElementById('popup');
+      popup.style.display = 'none';
+    }
+
+    function redirectToWhatsApp(phoneNumber, amount, message) {
+      var url = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message + ' - Jumlah: ' + amount);
+      window.open(url, '_blank');
+    }
+
+
+      // JavaScript
+      function showPopup(phoneNumber, amount, message) {
+        var popup = document.getElementById('popup');
+        var popupAmount = document.getElementById('popupAmount');
+        var popupPrice = document.getElementById('popupPrice');
+  
+        popupAmount.textContent = amount + ' Genesis Crystal';
+        popupPrice.textContent = '$' + amount.toFixed(2);
+  
+        popup.style.display = 'flex';
+      }
+  
+      function hidePopup() {
+        var popup = document.getElementById('popup');
+        popup.style.display = 'none';
+      }
+  
+      function redirectToWhatsApp(phoneNumber, amount, message) {
+        var url = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message + ' - Jumlah: ' + amount);
+        window.open(url, '_blank');
+      }
+
+      
+        function openSocialMedia(url) {
+          window.open(url, '_blank');
+        }
+    </script>
+ 
+
+
+  <footer class="footer bg-gray-800 text-white py-10">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap justify-between items-center">
+        <div class="w-full md:w-auto text-center md:text-left mb-6 md:mb-0">
+          <span class="text-xl font-bold">わたしのBAY</span>
+        </div>
+        <div class="w-full md:w-auto text-center">
+          <ul class="list-none">
+            <li class="inline-block mr-4">
+              <a href="#" class="text-white hover:text-gray-400" onclick="openSocialMedia('https://www.facebook.com/GenshinImpact.id/')">Facebook</a>
+            </li>
+            <li class="inline-block mr-4">
+              <a href="#" class="text-white hover:text-gray-400" onclick="openSocialMedia('https://twitter.com/GenshinImpact?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor')">Twitter</a>
+            </li>
+            <li class="inline-block mr-4">
+              <a href="#" class="text-white hover:text-gray-400" onclick="openSocialMedia('https://www.instagram.com/genshinimpact/')">Instagram</a>
+            </li>
+            <li class="inline-block mr-4">
+              <a href="#" class="text-white hover:text-gray-400" onclick="openSocialMedia('https://www.youtube.com/@GenshinImpact')">YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="mt-8 text-center text-gray-400 text-sm">© 2023 Your Website. All Rights Reserved.</p>
+      <p class="mt-4 text-center text-gray-400 text-sm">Layanan Web Terbaik untuk Kebutuhan Anda</p>
+    </div>
+  </footer>
+
+</html>
